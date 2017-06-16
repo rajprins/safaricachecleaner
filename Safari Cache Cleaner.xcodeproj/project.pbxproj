@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E55A25B81EF426A900827583 /* Safari Cache Cleaner.app in Resources */ = {isa = PBXBuildFile; fileRef = E5A466631EF3FFC200B3E4FE /* Safari Cache Cleaner.app */; };
+		E5A466671EF3FFC200B3E4FE /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A466661EF3FFC200B3E4FE /* AppleScriptObjC.framework */; };
+		E5A4666B1EF3FFC200B3E4FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A4666A1EF3FFC200B3E4FE /* main.m */; };
+		E5A4666D1EF3FFC200B3E4FE /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E5A4666C1EF3FFC200B3E4FE /* AppDelegate.applescript */; };
+		E5A4666F1EF3FFC200B3E4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A4666E1EF3FFC200B3E4FE /* Assets.xcassets */; };
+		E5A466721EF3FFC200B3E4FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A466701EF3FFC200B3E4FE /* MainMenu.xib */; };
+		E5A4667A1EF4017A00B3E4FE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A466791EF4017A00B3E4FE /* Media.xcassets */; };
+		E5A466811EF4018D00B3E4FE /* brush.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A4667C1EF4018D00B3E4FE /* brush.png */; };
+		E5A466821EF4018D00B3E4FE /* Safari01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A4667D1EF4018D00B3E4FE /* Safari01.png */; };
+		E5A466831EF4018D00B3E4FE /* Safari02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A4667E1EF4018D00B3E4FE /* Safari02.png */; };
+		E5A466841EF4018D00B3E4FE /* Safari03.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A4667F1EF4018D00B3E4FE /* Safari03.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E55A25B91EF4276C00827583 /* Safari Cache Cleaner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safari Cache Cleaner.entitlements"; sourceTree = "<group>"; };
+		E5A466631EF3FFC200B3E4FE /* Safari Cache Cleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Cache Cleaner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A466661EF3FFC200B3E4FE /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		E5A4666A1EF3FFC200B3E4FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5A4666C1EF3FFC200B3E4FE /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		E5A4666E1EF3FFC200B3E4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5A466711EF3FFC200B3E4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E5A466731EF3FFC200B3E4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A466791EF4017A00B3E4FE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		E5A4667C1EF4018D00B3E4FE /* brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush.png; sourceTree = "<group>"; };
+		E5A4667D1EF4018D00B3E4FE /* Safari01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari01.png; sourceTree = "<group>"; };
+		E5A4667E1EF4018D00B3E4FE /* Safari02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari02.png; sourceTree = "<group>"; };
+		E5A4667F1EF4018D00B3E4FE /* Safari03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari03.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5A466601EF3FFC200B3E4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A466671EF3FFC200B3E4FE /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5A4665A1EF3FFC200B3E4FE = {
+			isa = PBXGroup;
+			children = (
+				E5A466681EF3FFC200B3E4FE /* Safari Cache Cleaner */,
+				E5A466651EF3FFC200B3E4FE /* Frameworks */,
+				E5A466641EF3FFC200B3E4FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5A466641EF3FFC200B3E4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5A466631EF3FFC200B3E4FE /* Safari Cache Cleaner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5A466651EF3FFC200B3E4FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A466661EF3FFC200B3E4FE /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5A466681EF3FFC200B3E4FE /* Safari Cache Cleaner */ = {
+			isa = PBXGroup;
+			children = (
+				E55A25B91EF4276C00827583 /* Safari Cache Cleaner.entitlements */,
+				E5A4666C1EF3FFC200B3E4FE /* AppDelegate.applescript */,
+				E5A466791EF4017A00B3E4FE /* Media.xcassets */,
+				E5A4667C1EF4018D00B3E4FE /* brush.png */,
+				E5A4667D1EF4018D00B3E4FE /* Safari01.png */,
+				E5A4667E1EF4018D00B3E4FE /* Safari02.png */,
+				E5A4667F1EF4018D00B3E4FE /* Safari03.png */,
+				E5A4666E1EF3FFC200B3E4FE /* Assets.xcassets */,
+				E5A466701EF3FFC200B3E4FE /* MainMenu.xib */,
+				E5A466731EF3FFC200B3E4FE /* Info.plist */,
+				E5A466691EF3FFC200B3E4FE /* Supporting Files */,
+			);
+			path = "Safari Cache Cleaner";
+			sourceTree = "<group>";
+		};
+		E5A466691EF3FFC200B3E4FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A4666A1EF3FFC200B3E4FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5A466621EF3FFC200B3E4FE /* Safari Cache Cleaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A466761EF3FFC200B3E4FE /* Build configuration list for PBXNativeTarget "Safari Cache Cleaner" */;
+			buildPhases = (
+				E5A4665F1EF3FFC200B3E4FE /* Sources */,
+				E5A466601EF3FFC200B3E4FE /* Frameworks */,
+				E5A466611EF3FFC200B3E4FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Safari Cache Cleaner";
+			productName = "Safari Cache Cleaner";
+			productReference = E5A466631EF3FFC200B3E4FE /* Safari Cache Cleaner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5A4665B1EF3FFC200B3E4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Roy Prins";
+				TargetAttributes = {
+					E5A466621EF3FFC200B3E4FE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TP737ZY7FM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E5A4665E1EF3FFC200B3E4FE /* Build configuration list for PBXProject "Safari Cache Cleaner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5A4665A1EF3FFC200B3E4FE;
+			productRefGroup = E5A466641EF3FFC200B3E4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5A466621EF3FFC200B3E4FE /* Safari Cache Cleaner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5A466611EF3FFC200B3E4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A466841EF4018D00B3E4FE /* Safari03.png in Resources */,
+				E5A466821EF4018D00B3E4FE /* Safari01.png in Resources */,
+				E5A466811EF4018D00B3E4FE /* brush.png in Resources */,
+				E55A25B81EF426A900827583 /* Safari Cache Cleaner.app in Resources */,
+				E5A4666F1EF3FFC200B3E4FE /* Assets.xcassets in Resources */,
+				E5A4667A1EF4017A00B3E4FE /* Media.xcassets in Resources */,
+				E5A466721EF3FFC200B3E4FE /* MainMenu.xib in Resources */,
+				E5A466831EF4018D00B3E4FE /* Safari02.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5A4665F1EF3FFC200B3E4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A4666D1EF3FFC200B3E4FE /* AppDelegate.applescript in Sources */,
+				E5A4666B1EF3FFC200B3E4FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E5A466701EF3FFC200B3E4FE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5A466711EF3FFC200B3E4FE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5A466741EF3FFC200B3E4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5A466751EF3FFC200B3E4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5A466771EF3FFC200B3E4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Safari Cache Cleaner/Safari Cache Cleaner.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TP737ZY7FM;
+				INFOPLIST_FILE = "Safari Cache Cleaner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twomobiledudes.Safari-Cache-Cleaner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		E5A466781EF3FFC200B3E4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Safari Cache Cleaner/Safari Cache Cleaner.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TP737ZY7FM;
+				INFOPLIST_FILE = "Safari Cache Cleaner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twomobiledudes.Safari-Cache-Cleaner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5A4665E1EF3FFC200B3E4FE /* Build configuration list for PBXProject "Safari Cache Cleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A466741EF3FFC200B3E4FE /* Debug */,
+				E5A466751EF3FFC200B3E4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A466761EF3FFC200B3E4FE /* Build configuration list for PBXNativeTarget "Safari Cache Cleaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A466771EF3FFC200B3E4FE /* Debug */,
+				E5A466781EF3FFC200B3E4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5A4665B1EF3FFC200B3E4FE /* Project object */;
+}
