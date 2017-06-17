@@ -11,22 +11,28 @@ script AppDelegate
 	
 	-- IBOutlets
 	property theWindow : missing value
-    
     property textField : missing value
 	
+    
+    
 	on applicationWillFinishLaunching_(aNotification)
 		-- Insert code here to initialize your application before any files are opened 
 	end applicationWillFinishLaunching_
 	
+    
+    
 	on applicationShouldTerminate_(sender)
 		-- Insert code here to do any housekeeping before your application quits 
 		return current application's NSTerminateNow
 	end applicationShouldTerminate_
     
+    
+    ----------------------------------------------------------------------------
+    -- Logic for deleting Safari's data
+    ----------------------------------------------------------------------------
     on clearBrowserData_(sender)
-        -- Check if Safari is running
+        -- Check if Safari is running. If so, quit
         set appname to "Safari"
-        
         if appIsRunning(appname) then
             set started to true
             tell application appname to quit
@@ -56,8 +62,8 @@ script AppDelegate
         log "Deleting ~/Library/Safari/RecentlyClosedTabs.plist"
         do shell script "echo '' > ~/Library/Safari/RecentlyClosedTabs.plist"
         
-        log "Deleting ~/Library/Safari/LastSession.plist"
-        do shell script "echo '' > ~/Library/Safari/LastSession.plist"
+        --log "Deleting ~/Library/Safari/LastSession.plist"
+        --do shell script "echo '' > ~/Library/Safari/LastSession.plist"
         
         log "Deleting ~/Library/Safari/TopSites.plist"
         do shell script "echo '' > ~/Library/Safari/TopSites.plist"
@@ -74,7 +80,9 @@ script AppDelegate
     end clearBrowserData_
 	
     
-
+    ----------------------------------------------------------------------------
+    -- Check if an app is running
+    ----------------------------------------------------------------------------
     on appIsRunning(appname)
         tell application "System Events" to (name of processes) contains appname
     end appIsRunning
