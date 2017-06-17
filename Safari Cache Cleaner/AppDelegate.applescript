@@ -50,26 +50,26 @@ script AppDelegate
         log "Deleting ~/Library/Safari/Databases"
         do shell script "rm -rf ~/Library/Safari/Databases"
         
-        log "Deleting ~/Library/Caches/com.apple.Safari/Cache.db"
-        do shell script "rm -f ~/Library/Caches/com.apple.Safari/Cache.db"
+        log "Deleting ~/Library/Caches/com.apple.Safari"
+        do shell script "rm -rf ~/Library/Caches/com.apple.Safari"
         
-        log "Deleting ~/Library/Caches/com.apple.Safari/Webpage\\ Previews"
-        do shell script "rm -rf ~/Library/Caches/com.apple.Safari/Webpage\\ Previews"
-        
-        log "Deleting ~/Library/Caches/Metadata/Safari/History"
-        do shell script "rm -rf ~/Library/Caches/Metadata/Safari/History"
+        log "Deleting ~/Library/Caches/Metadata/Safari"
+        do shell script "rm -rf ~/Library/Caches/Metadata/Safari"
         
         log "Deleting ~/Library/Safari/RecentlyClosedTabs.plist"
         do shell script "echo '' > ~/Library/Safari/RecentlyClosedTabs.plist"
         
-        --log "Deleting ~/Library/Safari/LastSession.plist"
-        --do shell script "echo '' > ~/Library/Safari/LastSession.plist"
+        log "Deleting ~/Library/Safari/LastSession.plist"
+        do shell script "echo '' > ~/Library/Safari/LastSession.plist"
         
         log "Deleting ~/Library/Safari/TopSites.plist"
         do shell script "echo '' > ~/Library/Safari/TopSites.plist"
         
         log "Deleting ~/Library/Safari/Downloads.plist"
         do shell script "echo '' > ~/Library/Safari/Downloads.plist"
+        
+        log "Deleting ~/Library/Safari/Webpageicons.db"
+        do shell script "echo '' > ~/Library/Safari/Webpageicons.db"
         
         if started is true then
             display dialog "Safari's history and caches have been cleaned. Safari will be restarted." buttons {"OK"} with title "Safari Cache Cleaner" with icon note
