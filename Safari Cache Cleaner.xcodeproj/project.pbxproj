@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E55A25B81EF426A900827583 /* Safari Cache Cleaner.app in Resources */ = {isa = PBXBuildFile; fileRef = E5A466631EF3FFC200B3E4FE /* Safari Cache Cleaner.app */; };
 		E5A466671EF3FFC200B3E4FE /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A466661EF3FFC200B3E4FE /* AppleScriptObjC.framework */; };
 		E5A4666B1EF3FFC200B3E4FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A4666A1EF3FFC200B3E4FE /* main.m */; };
 		E5A4666D1EF3FFC200B3E4FE /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = E5A4666C1EF3FFC200B3E4FE /* AppDelegate.applescript */; };
 		E5A4666F1EF3FFC200B3E4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A4666E1EF3FFC200B3E4FE /* Assets.xcassets */; };
 		E5A466721EF3FFC200B3E4FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A466701EF3FFC200B3E4FE /* MainMenu.xib */; };
-		E5A4667A1EF4017A00B3E4FE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5A466791EF4017A00B3E4FE /* Media.xcassets */; };
 		E5A466811EF4018D00B3E4FE /* brush.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A4667C1EF4018D00B3E4FE /* brush.png */; };
 		E5A466821EF4018D00B3E4FE /* Safari01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A4667D1EF4018D00B3E4FE /* Safari01.png */; };
 		E5A466831EF4018D00B3E4FE /* Safari02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5A4667E1EF4018D00B3E4FE /* Safari02.png */; };
@@ -21,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E55A25B91EF4276C00827583 /* Safari Cache Cleaner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safari Cache Cleaner.entitlements"; sourceTree = "<group>"; };
 		E5A466631EF3FFC200B3E4FE /* Safari Cache Cleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Cache Cleaner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A466661EF3FFC200B3E4FE /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		E5A4666A1EF3FFC200B3E4FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -29,7 +26,6 @@
 		E5A4666E1EF3FFC200B3E4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5A466711EF3FFC200B3E4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E5A466731EF3FFC200B3E4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5A466791EF4017A00B3E4FE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		E5A4667C1EF4018D00B3E4FE /* brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush.png; sourceTree = "<group>"; };
 		E5A4667D1EF4018D00B3E4FE /* Safari01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari01.png; sourceTree = "<group>"; };
 		E5A4667E1EF4018D00B3E4FE /* Safari02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari02.png; sourceTree = "<group>"; };
@@ -76,9 +72,7 @@
 		E5A466681EF3FFC200B3E4FE /* Safari Cache Cleaner */ = {
 			isa = PBXGroup;
 			children = (
-				E55A25B91EF4276C00827583 /* Safari Cache Cleaner.entitlements */,
 				E5A4666C1EF3FFC200B3E4FE /* AppDelegate.applescript */,
-				E5A466791EF4017A00B3E4FE /* Media.xcassets */,
 				E5A4667C1EF4018D00B3E4FE /* brush.png */,
 				E5A4667D1EF4018D00B3E4FE /* Safari01.png */,
 				E5A4667E1EF4018D00B3E4FE /* Safari02.png */,
@@ -133,6 +127,9 @@
 						DevelopmentTeam = TP737ZY7FM;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 0;
+							};
 							com.apple.Sandbox = {
 								enabled = 0;
 							};
@@ -166,9 +163,7 @@
 				E5A466841EF4018D00B3E4FE /* Safari03.png in Resources */,
 				E5A466821EF4018D00B3E4FE /* Safari01.png in Resources */,
 				E5A466811EF4018D00B3E4FE /* brush.png in Resources */,
-				E55A25B81EF426A900827583 /* Safari Cache Cleaner.app in Resources */,
 				E5A4666F1EF3FFC200B3E4FE /* Assets.xcassets in Resources */,
-				E5A4667A1EF4017A00B3E4FE /* Media.xcassets in Resources */,
 				E5A466721EF3FFC200B3E4FE /* MainMenu.xib in Resources */,
 				E5A466831EF4018D00B3E4FE /* Safari02.png in Resources */,
 			);
@@ -293,7 +288,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Safari Cache Cleaner/Safari Cache Cleaner.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TP737ZY7FM;
@@ -310,7 +304,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Safari Cache Cleaner/Safari Cache Cleaner.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = TP737ZY7FM;
